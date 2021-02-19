@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1578917731">
+  <File Type="PA-TCL" Name="Main.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="Main_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="Main_reports.tcl"/>
+  <File Type="RDS-RDS" Name="Main.vds"/>
+  <File Type="RDS-UTIL" Name="Main_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="Main_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="Main.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="Main_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="Main_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/new/ADDN.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Facultate/An 3/ProiectSSC/ProiectSSC/ProiectSSC.srcs/sources_1/new/ADDN.vhd"/>
+        <Attr Name="ImportTime" Val="1577001328"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/ConvertorHexaInteger.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Facultate/An 3/ProiectSSC/ProiectSSC/ProiectSSC.srcs/sources_1/new/ConvertorHexaInteger.vhd"/>
+        <Attr Name="ImportTime" Val="1577446451"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Division.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/RX_FSM.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Facultate/An 3/ProiectSSC/ProiectSSC/ProiectSSC.srcs/sources_1/new/RX_FSM.vhd"/>
+        <Attr Name="ImportTime" Val="1577001833"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/SSD.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Facultate/An 3/ProiectSSC/ProiectSSC/ProiectSSC.srcs/sources_1/new/SSD.vhd"/>
+        <Attr Name="ImportTime" Val="1577097982"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/alu_8bit.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Facultate/An 3/ProiectSSC/ProiectSSC/ProiectSSC.srcs/sources_1/new/alu_8bit.vhd"/>
+        <Attr Name="ImportTime" Val="1577103114"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/comand_unit.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Facultate/An 3/ProiectSSC/ProiectSSC/ProiectSSC.srcs/sources_1/new/comand_unit.vhd"/>
+        <Attr Name="ImportTime" Val="1577001385"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/deplasariStangaDreapta8biti.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Facultate/An 3/ProiectSSC/ProiectSSC/ProiectSSC.srcs/sources_1/new/deplasariStangaDreapta8biti.vhd"/>
+        <Attr Name="ImportTime" Val="1577001143"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/fd.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Facultate/An 3/ProiectSSC/ProiectSSC/ProiectSSC.srcs/sources_1/new/fd.vhd"/>
+        <Attr Name="ImportTime" Val="1577001434"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/fdn.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Facultate/An 3/ProiectSSC/ProiectSSC/ProiectSSC.srcs/sources_1/new/fdn.vhd"/>
+        <Attr Name="ImportTime" Val="1577001511"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/srrn.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Facultate/An 3/ProiectSSC/ProiectSSC/ProiectSSC.srcs/sources_1/new/srrn.vhd"/>
+        <Attr Name="ImportTime" Val="1577001557"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/mult_booth.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Facultate/An 3/ProiectSSC/ProiectSSC/ProiectSSC.srcs/sources_1/new/mult_booth.vhd"/>
+        <Attr Name="ImportTime" Val="1577001224"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/rx_uart.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Facultate/An 3/ProiectSSC/ProiectSSC/ProiectSSC.srcs/sources_1/new/rx_uart.vhd"/>
+        <Attr Name="ImportTime" Val="1577176238"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/scadere8biti.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Facultate/An 3/ProiectSSC/ProiectSSC/ProiectSSC.srcs/sources_1/new/scadere8biti.vhd"/>
+        <Attr Name="ImportTime" Val="1577103063"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/sumator2biti.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Facultate/An 3/ProiectSSC/ProiectSSC/ProiectSSC.srcs/sources_1/new/sumator2biti.vhd"/>
+        <Attr Name="ImportTime" Val="1577002041"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/sumator8bit.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Facultate/An 3/ProiectSSC/ProiectSSC/ProiectSSC.srcs/sources_1/new/sumator8bit.vhd"/>
+        <Attr Name="ImportTime" Val="1576999656"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Main.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Facultate/An 3/ProiectSSC/ProiectSSC/ProiectSSC.srcs/sources_1/new/Main.vhd"/>
+        <Attr Name="ImportTime" Val="1578313836"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/TestALU.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/MPG.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="D:/Facultate/An 3/ProiectSSC/ProiectSSC/ProiectSSC.srcs/sources_1/new/MPG.vhd"/>
+        <Attr Name="ImportTime" Val="1577444005"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/sumator2bit.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="D:/Facultate/An 3/ProiectSSC/ProiectSSC/ProiectSSC.srcs/sources_1/new/sumator2bit.vhd"/>
+        <Attr Name="ImportTime" Val="1576999676"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Main"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Downloads/Basys3_test_env.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/Facultate/An 3/ProiectSSC/ProiectSSC/ProiectSSC.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc"/>
+        <Attr Name="ImportTime" Val="1577620548"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

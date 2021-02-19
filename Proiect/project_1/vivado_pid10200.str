@@ -1,0 +1,114 @@
+/*
+
+Xilinx Vivado v2019.1 (64-bit) [Major: 2019, Minor: 1]
+SW Build: 2552052 on Fri May 24 14:49:42 MDT 2019
+IP Build: 2548770 on Fri May 24 18:01:18 MDT 2019
+
+Process ID (PID): 10200
+License: Customer
+
+Current time: 	Wed Jan 08 12:18:16 EET 2020
+Time zone: 	Eastern European Standard Time (Europe/Athens)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 125
+Available screens: 1
+Available disk space: 132 GB
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+
+Java version: 	9.0.4 64-bit
+Java home: 	D:/xilinx/Vivado/2019.1/tps/win64/jre9.0.4
+Java executable location: 	D:/xilinx/Vivado/2019.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	murea
+User home directory: C:/Users/murea
+User working directory: C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1
+User country: 	GB
+User language: 	en
+User locale: 	en_GB
+
+RDI_BASEROOT: D:/xilinx/Vivado
+HDI_APPROOT: D:/xilinx/Vivado/2019.1
+RDI_DATADIR: D:/xilinx/Vivado/2019.1/data
+RDI_BINDIR: D:/xilinx/Vivado/2019.1/bin
+
+Vivado preferences file location: C:/Users/murea/AppData/Roaming/Xilinx/Vivado/2019.1/vivado.xml
+Vivado preferences directory: C:/Users/murea/AppData/Roaming/Xilinx/Vivado/2019.1/
+Vivado layouts directory: C:/Users/murea/AppData/Roaming/Xilinx/Vivado/2019.1/layouts
+PlanAhead jar file location: 	D:/xilinx/Vivado/2019.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1/vivado.log
+Vivado journal file location: 	C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1/vivado.jou
+Engine tmp dir: 	C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1/.Xil/Vivado-10200-Marius
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_DSP: D:/xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_PLANAHEAD: D:/xilinx/Vivado/2019.1
+XILINX_SDK: D:/xilinx/SDK/2019.1
+XILINX_VIVADO: D:/xilinx/Vivado/2019.1
+XILINX_VIVADO_HLS: D:/xilinx/Vivado/2019.1
+
+
+GUI allocated memory:	132 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 556 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// by (cl):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\murea\OneDrive\Desktop\ProiectSSCBasys3\project_1\project_1.xpr. Version: Vivado v2019.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1/project_1.xpr 
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking 917ms to process. Increasing delay to 4000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 556 MB. GUI used memory: 49 MB. Current time: 1/8/20, 12:18:18 PM EET
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1/project_1.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 78 MB (+79646kb) [00:00:50]
+// [Engine Memory]: 622 MB (+500382kb) [00:00:50]
+// [GUI Memory]: 93 MB (+11596kb) [00:00:51]
+// [Engine Memory]: 675 MB (+23709kb) [00:00:52]
+// [GUI Memory]: 99 MB (+1361kb) [00:00:53]
+// WARNING: HEventQueue.dispatchEvent() is taking  5776 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/xilinx/Vivado/2019.1/data/ip'. 
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a (by)
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a (by)
+// HMemoryUtils.trashcanNow. Engine heap size: 679 MB. GUI used memory: 56 MB. Current time: 1/8/20, 12:18:42 PM EET
+// Tcl Message: open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:26 . Memory (MB): peak = 704.598 ; gain = 113.695 
+// Project name: project_1; location: C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1; part: xc7a35tcpg236-1

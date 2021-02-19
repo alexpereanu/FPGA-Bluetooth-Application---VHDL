@@ -1,0 +1,700 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Jan 13 14:15:34 2020
+# Process ID: 10044
+# Current directory: C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.runs/synth_1
+# Command line: vivado.exe -log Main.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Main.tcl
+# Log file: C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.runs/synth_1/Main.vds
+# Journal file: C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Main.tcl -notrace
+Command: synth_design -top Main -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 10784 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 717.879 ; gain = 176.684
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Main' [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/Main.vhd:15]
+INFO: [Synth 8-3491] module 'rx_uart' declared at 'C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/rx_uart.vhd:4' bound to instance 'termen' of component 'rx_uart' [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/Main.vhd:60]
+INFO: [Synth 8-638] synthesizing module 'rx_uart' [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/rx_uart.vhd:12]
+INFO: [Synth 8-638] synthesizing module 'RX_FSM' [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/RX_FSM.vhd:15]
+WARNING: [Synth 8-614] signal 'RST' is read in the process but is not in the sensitivity list [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/RX_FSM.vhd:22]
+INFO: [Synth 8-256] done synthesizing module 'RX_FSM' (1#1) [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/RX_FSM.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'rx_uart' (2#1) [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/rx_uart.vhd:12]
+INFO: [Synth 8-3491] module 'ConvertorHexaInteger' declared at 'C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/ConvertorHexaInteger.vhd:4' bound to instance 'cifraApasata' of component 'ConvertorHexaInteger' [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/Main.vhd:61]
+INFO: [Synth 8-638] synthesizing module 'ConvertorHexaInteger' [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/ConvertorHexaInteger.vhd:9]
+INFO: [Synth 8-256] done synthesizing module 'ConvertorHexaInteger' (3#1) [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/ConvertorHexaInteger.vhd:9]
+INFO: [Synth 8-3491] module 'SSD' declared at 'C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/SSD.vhd:5' bound to instance 'display' of component 'SSD' [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/Main.vhd:62]
+INFO: [Synth 8-638] synthesizing module 'SSD' [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/SSD.vhd:12]
+INFO: [Synth 8-226] default block is never used [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/SSD.vhd:31]
+INFO: [Synth 8-226] default block is never used [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/SSD.vhd:42]
+INFO: [Synth 8-226] default block is never used [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/SSD.vhd:52]
+INFO: [Synth 8-256] done synthesizing module 'SSD' (4#1) [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/SSD.vhd:12]
+WARNING: [Synth 8-5640] Port 'clk' is missing in component declaration [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/Main.vhd:17]
+INFO: [Synth 8-3491] module 'alu_8bit' declared at 'C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/alu_8bit.vhd:4' bound to instance 'operatie' of component 'alu_8bit' [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/Main.vhd:63]
+INFO: [Synth 8-638] synthesizing module 'alu_8bit' [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/alu_8bit.vhd:14]
+INFO: [Synth 8-3491] module 'sumator8biti' declared at 'C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/sumator8bit.vhd:4' bound to instance 'adunare' of component 'sumator8biti' [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/alu_8bit.vhd:90]
+INFO: [Synth 8-638] synthesizing module 'sumator8biti' [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/sumator8bit.vhd:12]
+INFO: [Synth 8-3491] module 'sumator2biti' declared at 'C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/sumator2biti.vhd:4' bound to instance 'sum1' of component 'sumator2biti' [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/sumator8bit.vhd:25]
+INFO: [Synth 8-638] synthesizing module 'sumator2biti' [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/sumator2biti.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'sumator2biti' (5#1) [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/sumator2biti.vhd:11]
+INFO: [Synth 8-3491] module 'sumator2biti' declared at 'C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/sumator2biti.vhd:4' bound to instance 'sum2' of component 'sumator2biti' [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/sumator8bit.vhd:26]
+INFO: [Synth 8-3491] module 'sumator2biti' declared at 'C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/sumator2biti.vhd:4' bound to instance 'sum3' of component 'sumator2biti' [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/sumator8bit.vhd:27]
+INFO: [Synth 8-3491] module 'sumator2biti' declared at 'C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/sumator2biti.vhd:4' bound to instance 'sum4' of component 'sumator2biti' [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/sumator8bit.vhd:28]
+INFO: [Synth 8-256] done synthesizing module 'sumator8biti' (6#1) [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/sumator8bit.vhd:12]
+INFO: [Synth 8-3491] module 'scadere8biti' declared at 'C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/scadere8biti.vhd:5' bound to instance 'scadere' of component 'scadere8biti' [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/alu_8bit.vhd:91]
+INFO: [Synth 8-638] synthesizing module 'scadere8biti' [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/scadere8biti.vhd:11]
+INFO: [Synth 8-3491] module 'sumator8biti' declared at 'C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/sumator8bit.vhd:4' bound to instance 'sumator' of component 'sumator8biti' [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/scadere8biti.vhd:28]
+INFO: [Synth 8-256] done synthesizing module 'scadere8biti' (7#1) [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/scadere8biti.vhd:11]
+INFO: [Synth 8-3491] module 'deplasariStangaDreapta8biti' declared at 'C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/deplasariStangaDreapta8biti.vhd:5' bound to instance 'deplasare' of component 'deplasariStangaDreapta8biti' [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/alu_8bit.vhd:92]
+INFO: [Synth 8-638] synthesizing module 'deplasariStangaDreapta8biti' [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/deplasariStangaDreapta8biti.vhd:12]
+INFO: [Synth 8-226] default block is never used [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/deplasariStangaDreapta8biti.vhd:18]
+WARNING: [Synth 8-614] signal 'selPozitiiDeplasare' is read in the process but is not in the sensitivity list [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/deplasariStangaDreapta8biti.vhd:16]
+WARNING: [Synth 8-614] signal 'dataIn' is read in the process but is not in the sensitivity list [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/deplasariStangaDreapta8biti.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'deplasariStangaDreapta8biti' (8#1) [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/deplasariStangaDreapta8biti.vhd:12]
+INFO: [Synth 8-3491] module 'mult_booth' declared at 'C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/mult_booth.vhd:4' bound to instance 'inmultire' of component 'mult_booth' [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/alu_8bit.vhd:93]
+INFO: [Synth 8-638] synthesizing module 'mult_booth' [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/mult_booth.vhd:16]
+	Parameter n bound to: 8 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'fdn' [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/fdn.vhd:13]
+	Parameter n bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'fdn' (9#1) [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/fdn.vhd:13]
+INFO: [Synth 8-638] synthesizing module 'srrn' [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/srrn.vhd:15]
+	Parameter n bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'srrn' (10#1) [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/srrn.vhd:15]
+INFO: [Synth 8-638] synthesizing module 'xil_defaultlib_fd' [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/fd.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'xil_defaultlib_fd' (11#1) [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/fd.vhd:12]
+INFO: [Synth 8-638] synthesizing module 'addn' [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/ADDN.vhd:15]
+	Parameter n bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'addn' (12#1) [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/ADDN.vhd:15]
+INFO: [Synth 8-638] synthesizing module 'comand_unit' [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/comand_unit.vhd:20]
+	Parameter n bound to: 8 - type: integer 
+WARNING: [Synth 8-614] signal 'rst' is read in the process but is not in the sensitivity list [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/comand_unit.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'comand_unit' (13#1) [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/comand_unit.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'mult_booth' (14#1) [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/mult_booth.vhd:16]
+INFO: [Synth 8-3491] module 'Division' declared at 'C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/new/Division.vhd:6' bound to instance 'impartire' of component 'Division' [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/alu_8bit.vhd:94]
+INFO: [Synth 8-638] synthesizing module 'Division' [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/new/Division.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'Division' (15#1) [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/new/Division.vhd:20]
+WARNING: [Synth 8-3848] Net selDeplasare in module/entity alu_8bit does not have driver. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/alu_8bit.vhd:74]
+WARNING: [Synth 8-3848] Net selPozitiiDeplasare in module/entity alu_8bit does not have driver. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/alu_8bit.vhd:75]
+INFO: [Synth 8-256] done synthesizing module 'alu_8bit' (16#1) [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/alu_8bit.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'Main' (17#1) [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/Main.vhd:15]
+WARNING: [Synth 8-3331] design Division has unconnected port Dividend[7]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 782.848 ; gain = 241.652
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 782.848 ; gain = 241.652
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 782.848 ; gain = 241.652
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc]
+WARNING: [Vivado 12-584] No ports matched 'sw[3]'. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[3]'. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[4]'. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[4]'. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[5]'. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[5]'. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[6]'. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[6]'. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[7]'. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[7]'. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[8]'. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[8]'. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[9]'. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[9]'. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[10]'. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[10]'. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[11]'. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[11]'. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[12]'. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[12]'. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[13]'. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[13]'. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[14]'. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[14]'. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[15]'. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[15]'. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[8]'. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:63]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:63]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[8]'. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:64]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:64]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[9]'. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:65]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:65]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[9]'. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:66]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:66]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[10]'. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:67]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:67]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[10]'. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:68]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:68]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[11]'. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:69]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:69]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[11]'. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:70]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:70]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[12]'. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:71]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:71]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[12]'. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:72]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:72]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[13]'. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:73]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:73]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[13]'. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:74]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:74]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[14]'. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:75]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:75]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[14]'. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:76]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:76]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[15]'. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:77]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:77]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[15]'. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:78]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:78]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'enable'. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:137]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:137]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'enable'. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:138]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:138]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'resetButon'. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:140]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:140]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'resetButon'. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:141]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc:141]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/constrs_1/imports/Downloads/Basys3_test_env.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Main_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Main_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 899.852 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 899.852 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 899.852 ; gain = 358.656
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 899.852 ; gain = 358.656
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 899.852 ; gain = 358.656
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'RX_FSM'
+INFO: [Synth 8-5546] ROM "output" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'comand_unit'
+INFO: [Synth 8-802] inferred FSM for state register 'FSM_cur_state_reg' in module 'Division'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                      s1 |                              000 |                              000
+                      s2 |                              001 |                              001
+                      s3 |                              010 |                              010
+                      s4 |                              011 |                              011
+                      s5 |                              100 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'RX_FSM'
+WARNING: [Synth 8-327] inferring latch for variable 'dataOut_reg' [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/deplasariStangaDreapta8biti.vhd:20]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                              000 |                              000
+                    init |                              001 |                              001
+                    test |                              010 |                              010
+                    stop |                              011 |                              110
+                     sub |                              100 |                              011
+                     add |                              101 |                              100
+                   shift |                              110 |                              101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'comand_unit'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                      s0 |                            00001 |                              000
+                      s1 |                            00010 |                              001
+                      s3 |                            00100 |                              011
+                      s2 |                            01000 |                              010
+                      s4 |                            10000 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'FSM_cur_state_reg' using encoding 'one-hot' in module 'Division'
+WARNING: [Synth 8-327] inferring latch for variable 'rezRemainder_reg' [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/alu_8bit.vhd:120]
+WARNING: [Synth 8-327] inferring latch for variable 'rezQuotient_reg' [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/alu_8bit.vhd:121]
+WARNING: [Synth 8-327] inferring latch for variable 'rezIn2_reg' [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/alu_8bit.vhd:118]
+WARNING: [Synth 8-327] inferring latch for variable 'rez_reg' [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/alu_8bit.vhd:108]
+WARNING: [Synth 8-327] inferring latch for variable 'Tin_reg' [C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/alu_8bit.vhd:90]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 899.852 ; gain = 358.656
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
+	   3 Input      4 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 2     
++---XORs : 
+	   3 Input      1 Bit         XORs := 16    
+	   2 Input      1 Bit         XORs := 9     
++---Registers : 
+	               31 Bit    Registers := 1     
+	                8 Bit    Registers := 5     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 2     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   7 Input     31 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 14    
+	   5 Input      8 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 2     
+	   7 Input      8 Bit        Muxes := 1     
+	   5 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 3     
+	   2 Input      4 Bit        Muxes := 2     
+	   5 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 4     
+	   5 Input      3 Bit        Muxes := 2     
+	   7 Input      3 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 5     
+	   3 Input      1 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 9     
+	   7 Input      1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module RX_FSM 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 3     
+	   5 Input      8 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   5 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 3     
+	   5 Input      3 Bit        Muxes := 2     
+	   5 Input      1 Bit        Muxes := 4     
+Module rx_uart 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   3 Input      1 Bit        Muxes := 1     
+Module ConvertorHexaInteger 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+Module SSD 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      4 Bit        Muxes := 2     
+Module sumator2biti 
+Detailed RTL Component Info : 
++---XORs : 
+	   3 Input      1 Bit         XORs := 2     
+Module deplasariStangaDreapta8biti 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 2     
+Module fdn 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+Module srrn 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module xil_defaultlib_fd 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module addn 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+Module comand_unit 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     31 Bit       Adders := 1     
++---Registers : 
+	               31 Bit    Registers := 1     
++---Muxes : 
+	   7 Input     31 Bit        Muxes := 1     
+	   7 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 7     
+	   7 Input      1 Bit        Muxes := 2     
+Module mult_booth 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 8     
+Module Division 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      4 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 6     
+	   5 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 3     
+	   5 Input      1 Bit        Muxes := 1     
+Module alu_8bit 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 2     
+	   7 Input      8 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-3886] merging instance 'operatie/inmultire/fdn_B/q_reg[7]' (FDRE) to 'operatie/inmultire/fdn_B/q_reg[4]'
+INFO: [Synth 8-3886] merging instance 'operatie/inmultire/fdn_B/q_reg[6]' (FDRE) to 'operatie/inmultire/fdn_B/q_reg[4]'
+INFO: [Synth 8-3886] merging instance 'operatie/inmultire/fdn_B/q_reg[5]' (FDRE) to 'operatie/inmultire/fdn_B/q_reg[4]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\operatie/inmultire/fdn_B/q_reg[4] )
+INFO: [Synth 8-3886] merging instance 'operatie/impartire/ACC_reg[5]' (FDE) to 'operatie/impartire/ACC_reg[7]'
+INFO: [Synth 8-3886] merging instance 'operatie/impartire/ACC_reg[6]' (FDE) to 'operatie/impartire/ACC_reg[7]'
+INFO: [Synth 8-3886] merging instance 'operatie/impartire/ACC_reg[7]' (FDE) to 'operatie/impartire/ACC_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\operatie/deplasare/dataOut_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\operatie/impartire/ACC_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\operatie/deplasare/dataOut_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\operatie/deplasare/dataOut_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\operatie/deplasare/dataOut_reg[7] )
+INFO: [Synth 8-3886] merging instance 'operatie/rezRemainder_reg[0]' (LD) to 'operatie/rezQuotient_reg[0]'
+INFO: [Synth 8-3886] merging instance 'operatie/rezRemainder_reg[1]' (LD) to 'operatie/rezQuotient_reg[0]'
+INFO: [Synth 8-3886] merging instance 'operatie/rezRemainder_reg[2]' (LD) to 'operatie/rezQuotient_reg[0]'
+INFO: [Synth 8-3886] merging instance 'operatie/rezRemainder_reg[3]' (LD) to 'operatie/rezQuotient_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\operatie/rezQuotient_reg[0] )
+INFO: [Synth 8-3886] merging instance 'operatie/rez_reg[5]' (LD) to 'operatie/rez_reg[6]'
+INFO: [Synth 8-3886] merging instance 'operatie/rez_reg[6]' (LD) to 'operatie/rez_reg[7]'
+WARNING: [Synth 8-3332] Sequential element (operatie/deplasare/dataOut_reg[7]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (operatie/deplasare/dataOut_reg[6]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (operatie/deplasare/dataOut_reg[5]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (operatie/deplasare/dataOut_reg[4]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (operatie/deplasare/dataOut_reg[3]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (operatie/deplasare/dataOut_reg[2]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (operatie/deplasare/dataOut_reg[1]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (operatie/deplasare/dataOut_reg[0]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (operatie/impartire/FSM_onehot_FSM_cur_state_reg[4]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (operatie/impartire/FSM_onehot_FSM_cur_state_reg[3]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (operatie/impartire/FSM_onehot_FSM_cur_state_reg[2]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (operatie/impartire/FSM_onehot_FSM_cur_state_reg[1]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (operatie/impartire/FSM_onehot_FSM_cur_state_reg[0]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (operatie/rezQuotient_reg[0]) is unused and will be removed from module Main.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 899.852 ; gain = 358.656
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 899.852 ; gain = 358.656
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 899.852 ; gain = 358.656
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (operatie/inmultire/com_unit/FSM_sequential_state_reg[2]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (operatie/inmultire/com_unit/FSM_sequential_state_reg[1]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (operatie/inmultire/com_unit/FSM_sequential_state_reg[0]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (operatie/rezQuotient_reg[3]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (operatie/rezQuotient_reg[2]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (operatie/rezQuotient_reg[1]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (operatie/rezIn2_reg[7]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (operatie/rezIn2_reg[6]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (operatie/rezIn2_reg[5]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (operatie/rezIn2_reg[4]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (operatie/rezIn2_reg[3]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (operatie/rezIn2_reg[2]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (operatie/rezIn2_reg[1]) is unused and will be removed from module Main.
+WARNING: [Synth 8-3332] Sequential element (operatie/rezIn2_reg[0]) is unused and will be removed from module Main.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 899.852 ; gain = 358.656
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 905.406 ; gain = 364.211
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 905.406 ; gain = 364.211
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 905.406 ; gain = 364.211
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 905.406 ; gain = 364.211
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 905.406 ; gain = 364.211
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 905.406 ; gain = 364.211
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    16|
+|3     |LUT1   |     4|
+|4     |LUT2   |    58|
+|5     |LUT3   |    10|
+|6     |LUT4   |    23|
+|7     |LUT5   |    15|
+|8     |LUT6   |    21|
+|9     |FDRE   |    67|
+|10    |LD     |     7|
+|11    |IBUF   |     5|
+|12    |OBUF   |    19|
++------+-------+------+
+
+Report Instance Areas: 
++------+-----------+---------+------+
+|      |Instance   |Module   |Cells |
++------+-----------+---------+------+
+|1     |top        |         |   246|
+|2     |  display  |SSD      |    25|
+|3     |  operatie |alu_8bit |    27|
+|4     |  termen   |rx_uart  |   169|
+|5     |    fsm    |RX_FSM   |    61|
++------+-----------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 905.406 ; gain = 364.211
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 34 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:23 . Memory (MB): peak = 905.406 ; gain = 247.207
+Synthesis Optimization Complete : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 905.406 ; gain = 364.211
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 23 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 917.922 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 7 instances were transformed.
+  LD => LDCE: 7 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+90 Infos, 88 Warnings, 46 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 917.922 ; gain = 621.094
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 917.922 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/murea/OneDrive/Desktop/ProiectSSC/ProiectSSCBasys3/project_1/project_1.runs/synth_1/Main.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Main_utilization_synth.rpt -pb Main_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Jan 13 14:16:14 2020...

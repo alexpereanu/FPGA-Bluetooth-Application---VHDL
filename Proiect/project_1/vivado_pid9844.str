@@ -1,0 +1,1880 @@
+/*
+
+Xilinx Vivado v2019.1 (64-bit) [Major: 2019, Minor: 1]
+SW Build: 2552052 on Fri May 24 14:49:42 MDT 2019
+IP Build: 2548770 on Fri May 24 18:01:18 MDT 2019
+
+Process ID (PID): 9844
+License: Customer
+
+Current time: 	Fri Jan 10 08:50:01 EET 2020
+Time zone: 	Eastern European Standard Time (Europe/Athens)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 125
+Available screens: 1
+Available disk space: 130 GB
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+
+Java version: 	9.0.4 64-bit
+Java home: 	D:/xilinx/Vivado/2019.1/tps/win64/jre9.0.4
+Java executable location: 	D:/xilinx/Vivado/2019.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	murea
+User home directory: C:/Users/murea
+User working directory: C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1
+User country: 	GB
+User language: 	en
+User locale: 	en_GB
+
+RDI_BASEROOT: D:/xilinx/Vivado
+HDI_APPROOT: D:/xilinx/Vivado/2019.1
+RDI_DATADIR: D:/xilinx/Vivado/2019.1/data
+RDI_BINDIR: D:/xilinx/Vivado/2019.1/bin
+
+Vivado preferences file location: C:/Users/murea/AppData/Roaming/Xilinx/Vivado/2019.1/vivado.xml
+Vivado preferences directory: C:/Users/murea/AppData/Roaming/Xilinx/Vivado/2019.1/
+Vivado layouts directory: C:/Users/murea/AppData/Roaming/Xilinx/Vivado/2019.1/layouts
+PlanAhead jar file location: 	D:/xilinx/Vivado/2019.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1/vivado.log
+Vivado journal file location: 	C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1/vivado.jou
+Engine tmp dir: 	C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1/.Xil/Vivado-9844-Marius
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_DSP: D:/xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_PLANAHEAD: D:/xilinx/Vivado/2019.1
+XILINX_SDK: D:/xilinx/SDK/2019.1
+XILINX_VIVADO: D:/xilinx/Vivado/2019.1
+XILINX_VIVADO_HLS: D:/xilinx/Vivado/2019.1
+
+
+GUI allocated memory:	185 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 629 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// by (cl):  Open Project : addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1461 ms.
+// Opening Vivado Project: C:\Users\murea\OneDrive\Desktop\ProiectSSCBasys3\project_1\project_1.xpr. Version: Vivado v2019.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1/project_1.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 633 MB. GUI used memory: 49 MB. Current time: 1/10/20, 8:50:03 AM EET
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1/project_1.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 77 MB (+78713kb) [00:00:28]
+// [Engine Memory]: 679 MB (+560122kb) [00:00:28]
+// [GUI Memory]: 93 MB (+12169kb) [00:00:28]
+// [GUI Memory]: 100 MB (+2187kb) [00:00:31]
+// WARNING: HEventQueue.dispatchEvent() is taking  6600 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/xilinx/Vivado/2019.1/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 700 MB. GUI used memory: 55 MB. Current time: 1/10/20, 8:50:24 AM EET
+// Tcl Message: open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 730.324 ; gain = 68.043 
+// Project name: project_1; location: C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1; part: xc7a35tcpg236-1
+// [Engine Memory]: 713 MB (+635kb) [00:00:34]
+// [GUI Memory]: 113 MB (+8789kb) [00:00:35]
+dismissDialog("Open Project"); // by (cl)
+// [Engine Memory]: 750 MB (+1166kb) [00:00:35]
+// Tcl Message: update_compile_order -fileset sources_1 
+// PAResourceOtoP.PAViews_PROJECT_SUMMARY: Project Summary: close view
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// PAPropertyPanels.initPanels (Main.vhd) elapsed time: 0.4s
+// Elapsed time: 53 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main(Behavioral) (Main.vhd)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main(Behavioral) (Main.vhd), termen : rx_uart(Behavioral) (rx_uart.vhd)]", 2, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 770 MB. GUI used memory: 57 MB. Current time: 1/10/20, 8:51:29 AM EET
+selectCodeEditor("Main.vhd", 442, 185); // cl (w, cl)
+selectCodeEditor("Main.vhd", 411, 244); // cl (w, cl)
+selectCodeEditor("Main.vhd", 457, 233); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cl): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// by (cl):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (cl)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_MODIFY
+// f (cl): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cx' command handler elapsed time: 3 seconds
+dismissDialog("Launch Runs"); // f (cl)
+// TclEventType: RUN_LAUNCH
+// by (cl):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri Jan 10 08:51:53 2020] Launched synth_1... Run output will be captured here: C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1/project_1.runs/synth_1/runme.log [Fri Jan 10 08:51:53 2020] Launched impl_1... Run output will be captured here: C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1/project_1.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+dismissDialog("Generate Bitstream"); // by (cl)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ah (cl): Bitstream Generation Completed: addNotify
+// Elapsed time: 161 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Completed"); // ah (cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u (O, cl) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// by (cl):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// [Engine Memory]: 793 MB (+5897kb) [00:04:48]
+// WARNING: HEventQueue.dispatchEvent() is taking  1046 ms.
+// Tcl Message: open_hw 
+// HMemoryUtils.trashcanNow. Engine heap size: 793 MB. GUI used memory: 62 MB. Current time: 1/10/20, 8:54:39 AM EET
+dismissDialog("Open Hardware Manager"); // by (cl)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cS, cl)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ah (an, cl)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// by (cl):  Auto Connect : addNotify
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2019.1   **** Build date : May 24 2019 at 15:13:31     ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 826.734 ; gain = 14.566 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// WARNING: HEventQueue.dispatchEvent() is taking  5145 ms.
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183AB44E4A 
+// Tcl Message: open_hw_target: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1928.672 ; gain = 1101.938 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1/project_1.runs/impl_1/Main.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// [Engine Memory]: 1,881 MB (+1099007kb) [00:05:03]
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// Elapsed time: 13 seconds
+dismissDialog("Auto Connect"); // by (cl)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cS, cl)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cl): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// by (cl):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC (cl)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1/project_1.runs/impl_1/Main.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // by (cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,921 MB. GUI used memory: 63 MB. Current time: 1/10/20, 8:55:03 AM EET
+// Elapsed time: 35 seconds
+selectCodeEditor("Main.vhd", 655, 126); // cl (w, cl)
+// Elapsed time: 62 seconds
+selectCodeEditor("Main.vhd", 244, 239); // cl (w, cl)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cS, cl)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cl): Program Device: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (bC)
+dismissDialog("Program Device"); // bC (cl)
+// Elapsed time: 30 seconds
+selectCodeEditor("Main.vhd", 511, 81); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 36 seconds
+selectCodeEditor("Main.vhd", 92, 197); // cl (w, cl)
+selectCodeEditor("Main.vhd", 365, 198); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 12 seconds
+selectCodeEditor("Main.vhd", 28, 245); // cl (w, cl)
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (aA, cl)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// A (cl): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// by (cl):  Close Hardware Manager : addNotify
+// TclEventType: HW_OBJECT_DELETE
+dismissDialog("Confirm Close"); // A (cl)
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// Tcl Message: close_hw 
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SESSION_CLOSE
+dismissDialog("Close Hardware Manager"); // by (cl)
+// Elapsed time: 16 seconds
+selectCodeEditor("Main.vhd", 27, 240); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 31 seconds
+selectCodeEditor("Main.vhd", 177, 263); // cl (w, cl)
+// Elapsed time: 19 seconds
+selectCodeEditor("Main.vhd", 2, 255); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 59 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cl): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// by (cl):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (cl)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cl): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cx' command handler elapsed time: 5 seconds
+// [GUI Memory]: 122 MB (+3901kb) [00:10:38]
+dismissDialog("Launch Runs"); // f (cl)
+// TclEventType: RUN_LAUNCH
+// by (cl):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Fri Jan 10 09:00:30 2020] Launched synth_1... Run output will be captured here: C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1/project_1.runs/synth_1/runme.log [Fri Jan 10 09:00:30 2020] Launched impl_1... Run output will be captured here: C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1/project_1.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // by (cl)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 55 seconds
+selectCodeEditor("Main.vhd", 109, 183); // cl (w, cl)
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 57 seconds
+selectCodeEditor("Main.vhd", 230, 183); // cl (w, cl)
+selectCodeEditor("Main.vhd", 185, 244); // cl (w, cl)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ah (cl): Bitstream Generation Completed: addNotify
+// Elapsed time: 24 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Completed"); // ah (cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u (O, cl) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// by (cl):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+dismissDialog("Open Hardware Manager"); // by (cl)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cS, cl)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ah (an, cl)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// by (cl):  Auto Connect : addNotify
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2019.1   **** Build date : May 24 2019 at 15:13:31     ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183AB44E4A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1/project_1.runs/impl_1/Main.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // by (cl)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cS, cl)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cl): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// by (cl):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC (cl)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1/project_1.runs/impl_1/Main.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // by (cl)
+selectCodeEditor("Main.vhd", 399, 139); // cl (w, cl)
+// Elapsed time: 11 seconds
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Digilent/210183AB44E4A (1) ; Open", 1, "Open", 1, true); // t (O, cl) - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (1) ; Programmed", 2, "Programmed", 1, true); // t (O, cl) - Node
+selectCodeEditor("Main.vhd", 219, 96); // cl (w, cl)
+// Elapsed time: 22 seconds
+selectCodeEditor("Main.vhd", 422, 173); // cl (w, cl)
+selectCodeEditor("Main.vhd", 102, 199); // cl (w, cl)
+selectCodeEditor("Main.vhd", 102, 199, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "Main.vhd", 'c'); // cl (w, cl)
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (aA, cl)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// A (cl): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// by (cl):  Close Hardware Manager : addNotify
+// TclEventType: HW_OBJECT_DELETE
+dismissDialog("Confirm Close"); // A (cl)
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: close_hw 
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SESSION_CLOSE
+dismissDialog("Close Hardware Manager"); // by (cl)
+// Elapsed time: 60 seconds
+selectCodeEditor("Main.vhd", 262, 145); // cl (w, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 8, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 8, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys3_test_env.xdc]", 10, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys3_test_env.xdc]", 10, false, false, false, false, false, true); // B (F, cl) - Double Click
+selectCodeEditor("Basys3_test_env.xdc", 31, 172); // cl (w, cl)
+selectCodeEditor("Basys3_test_env.xdc", 482, 233); // cl (w, cl)
+selectCodeEditor("Basys3_test_env.xdc", 535, 274); // cl (w, cl)
+selectCodeEditor("Basys3_test_env.xdc", 34, 269); // cl (w, cl)
+selectCodeEditor("Basys3_test_env.xdc", 32, 272); // cl (w, cl)
+selectCodeEditor("Basys3_test_env.xdc", 32, 272); // cl (w, cl)
+selectCodeEditor("Basys3_test_env.xdc", 447, 155); // cl (w, cl)
+selectCodeEditor("Basys3_test_env.xdc", 447, 155); // cl (w, cl)
+selectCodeEditor("Basys3_test_env.xdc", 447, 155, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "Basys3_test_env.xdc", 'v'); // cl (w, cl)
+selectCodeEditor("Basys3_test_env.xdc", 507, 178); // cl (w, cl)
+selectCodeEditor("Basys3_test_env.xdc", 507, 178, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "Basys3_test_env.xdc", 'v'); // cl (w, cl)
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Basys3_test_env.xdc", 454, 132); // cl (w, cl)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectCodeEditor("Main.vhd", 188, 165); // cl (w, cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cl): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// by (cl):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (cl)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cl): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (cl)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// by (cl):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Fri Jan 10 09:05:36 2020] Launched synth_1... Run output will be captured here: C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1/project_1.runs/synth_1/runme.log [Fri Jan 10 09:05:37 2020] Launched impl_1... Run output will be captured here: C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1/project_1.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+dismissDialog("Generate Bitstream"); // by (cl)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ah (cl): Bitstream Generation Completed: addNotify
+// Elapsed time: 155 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Completed"); // ah (cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u (O, cl) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// by (cl):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+dismissDialog("Open Hardware Manager"); // by (cl)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cS, cl)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ah (an, cl)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// by (cl):  Auto Connect : addNotify
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2019.1   **** Build date : May 24 2019 at 15:13:31     ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183AB44E4A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1/project_1.runs/impl_1/Main.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // by (cl)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cS, cl)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cl): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// by (cl):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC (cl)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1/project_1.runs/impl_1/Main.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // by (cl)
+// Elapsed time: 48 seconds
+selectCodeEditor("Main.vhd", 253, 182); // cl (w, cl)
+selectCodeEditor("Main.vhd", 252, 176); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 130 MB (+1355kb) [00:19:33]
+selectCodeEditor("Main.vhd", 172, 284); // cl (w, cl)
+// Elapsed time: 21 seconds
+selectCodeEditor("Main.vhd", 581, 262); // cl (w, cl)
+typeControlKey((HResource) null, "Main.vhd", 'c'); // cl (w, cl)
+selectCodeEditor("Main.vhd", 152, 304); // cl (w, cl)
+typeControlKey((HResource) null, "Main.vhd", 'v'); // cl (w, cl)
+selectCodeEditor("Main.vhd", 194, 247); // cl (w, cl)
+selectCodeEditor("Main.vhd", 194, 247, false, false, false, false, true); // cl (w, cl) - Double Click
+// Elapsed time: 17 seconds
+selectCodeEditor("Main.vhd", 573, 264); // cl (w, cl)
+selectCodeEditor("Main.vhd", 413, 266); // cl (w, cl)
+selectCodeEditor("Main.vhd", 377, 264); // cl (w, cl)
+selectCodeEditor("Main.vhd", 357, 264); // cl (w, cl)
+selectCodeEditor("Main.vhd", 357, 264, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "Main.vhd", 'c'); // cl (w, cl)
+selectCodeEditor("Main.vhd", 383, 263); // cl (w, cl)
+selectCodeEditor("Main.vhd", 383, 263); // cl (w, cl)
+selectCodeEditor("Main.vhd", 380, 264); // cl (w, cl)
+typeControlKey((HResource) null, "Main.vhd", 'v'); // cl (w, cl)
+selectCodeEditor("Main.vhd", 656, 268); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Main.vhd", 103, 301); // cl (w, cl)
+selectCodeEditor("Main.vhd", 185, 218); // cl (w, cl)
+selectCodeEditor("Main.vhd", 185, 218, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "Main.vhd", 'c'); // cl (w, cl)
+selectCodeEditor("Main.vhd", 34, 242); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 16 seconds
+selectCodeEditor("Main.vhd", 437, 106); // cl (w, cl)
+selectCodeEditor("Main.vhd", 255, 197); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 23 seconds
+selectCodeEditor("Main.vhd", 22, 244); // cl (w, cl)
+selectCodeEditor("Main.vhd", 43, 239); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 26 seconds
+selectCodeEditor("Main.vhd", 365, 114); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (aA, cl)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// A (cl): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// by (cl):  Close Hardware Manager : addNotify
+dismissDialog("Confirm Close"); // A (cl)
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SESSION_CLOSE
+// Tcl Message: close_hw 
+dismissDialog("Close Hardware Manager"); // by (cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys3_test_env.xdc]", 11, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys3_test_env.xdc]", 11, false, false, false, false, false, true); // B (F, cl) - Double Click
+selectCodeEditor("Basys3_test_env.xdc", 533, 113); // cl (w, cl)
+typeControlKey((HResource) null, "Basys3_test_env.xdc", 'c'); // cl (w, cl)
+selectCodeEditor("Basys3_test_env.xdc", 293, 152); // cl (w, cl)
+typeControlKey((HResource) null, "Basys3_test_env.xdc", 'v'); // cl (w, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Main.vhd", 0); // k (j, cl)
+// Elapsed time: 13 seconds
+selectCodeEditor("Main.vhd", 345, 140); // cl (w, cl)
+selectCodeEditor("Main.vhd", 345, 140, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "Main.vhd", 'c'); // cl (w, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys3_test_env.xdc", 1); // k (j, cl)
+// [GUI Memory]: 137 MB (+139kb) [00:22:32]
+selectCodeEditor("Basys3_test_env.xdc", 390, 157); // cl (w, cl)
+selectCodeEditor("Basys3_test_env.xdc", 390, 157, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "Basys3_test_env.xdc", 'v'); // cl (w, cl)
+selectCodeEditor("Basys3_test_env.xdc", 465, 183); // cl (w, cl)
+selectCodeEditor("Basys3_test_env.xdc", 465, 183, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "Basys3_test_env.xdc", 'v'); // cl (w, cl)
+selectCodeEditor("Basys3_test_env.xdc", 256, 156); // cl (w, cl)
+selectCodeEditor("Basys3_test_env.xdc", 250, 156); // cl (w, cl)
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Main.vhd", 0); // k (j, cl)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectCodeEditor("Main.vhd", 20, 274); // cl (w, cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cl): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// by (cl):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (cl)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cl): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cx' command handler elapsed time: 3 seconds
+dismissDialog("Launch Runs"); // f (cl)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Fri Jan 10 09:12:52 2020] Launched synth_1... Run output will be captured here: C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1/project_1.runs/synth_1/runme.log [Fri Jan 10 09:12:52 2020] Launched impl_1... Run output will be captured here: C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1/project_1.runs/impl_1/runme.log 
+// by (cl):  Generate Bitstream : addNotify
+dismissDialog("Generate Bitstream"); // by (cl)
+selectCodeEditor("Main.vhd", 350, 259); // cl (w, cl)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ah (cl): Bitstream Generation Completed: addNotify
+// Elapsed time: 123 seconds
+dismissDialog("Bitstream Generation Completed"); // ah (cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main(Behavioral) (Main.vhd)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main(Behavioral) (Main.vhd)]", 1, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u (O, cl) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// by (cl):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+dismissDialog("Open Hardware Manager"); // by (cl)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cS, cl)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ah (an, cl)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// by (cl):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2019.1   **** Build date : May 24 2019 at 15:13:31     ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183AB44E4A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1/project_1.runs/impl_1/Main.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // by (cl)
+selectCodeEditor("Main.vhd", 202, 209); // cl (w, cl)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cS, cl)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cl): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// by (cl):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC (cl)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1/project_1.runs/impl_1/Main.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // by (cl)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183AB44E4A 
+// n (cl): Close Hardware Target: addNotify
+// Elapsed time: 204 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (n)
+dismissDialog("Close Hardware Target"); // n (cl)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,936 MB. GUI used memory: 67 MB. Current time: 1/10/20, 9:25:04 AM EET
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 3645 ms. Increasing delay to 10935 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 2917 ms. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 13 ms. Decreasing delay to 2013 ms.
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183AB44E4A 
+// n (cl): Close Hardware Target: addNotify
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1454 ms. Increasing delay to 4362 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,936 MB. GUI used memory: 62 MB. Current time: 1/10/20, 9:55:04 AM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,936 MB. GUI used memory: 61 MB. Current time: 1/10/20, 10:25:04 AM EET
+// Elapsed time: 5784 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (n)
+dismissDialog("Close Hardware Target"); // n (cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,936 MB. GUI used memory: 61 MB. Current time: 1/10/20, 10:55:05 AM EET
+selectCodeEditor("Main.vhd", 131, 176); // cl (w, cl)
+// Elapsed time: 209 seconds
+selectCodeEditor("Main.vhd", 571, 121); // cl (w, cl)
+// Elapsed time: 17 seconds
+selectCodeEditor("Main.vhd", 489, 255); // cl (w, cl)
+typeControlKey((HResource) null, "Main.vhd", 'c'); // cl (w, cl)
+selectCodeEditor("Main.vhd", 67, 88); // cl (w, cl)
+typeControlKey((HResource) null, "Main.vhd", 'v'); // cl (w, cl)
+// Elapsed time: 20 seconds
+selectCodeEditor("Main.vhd", 146, 160); // cl (w, cl)
+selectCodeEditor("Main.vhd", 350, 138); // cl (w, cl)
+selectCodeEditor("Main.vhd", 334, 156); // cl (w, cl)
+selectCodeEditor("Main.vhd", 285, 202); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 38 seconds
+selectCodeEditor("Main.vhd", 220, 298); // cl (w, cl)
+selectCodeEditor("Main.vhd", 211, 269); // cl (w, cl)
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // B (f, cl)
+selectCodeEditor("Main.vhd", 443, 206); // cl (w, cl)
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // B (f, cl)
+selectCodeEditor("Main.vhd", 481, 149); // cl (w, cl)
+selectCodeEditor("Main.vhd", 494, 163); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (aA, cl)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// A (cl): Confirm Close: addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// by (cl):  Close Hardware Manager : addNotify
+dismissDialog("Confirm Close"); // A (cl)
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SESSION_CLOSE
+// Tcl Message: close_hw 
+dismissDialog("Close Hardware Manager"); // by (cl)
+// Elapsed time: 25 seconds
+selectCodeEditor("Main.vhd", 581, 209); // cl (w, cl)
+selectCodeEditor("Main.vhd", 557, 215); // cl (w, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 5); // B (F, cl)
+selectCodeEditor("Main.vhd", 511, 261); // cl (w, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main(Behavioral) (Main.vhd)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main(Behavioral) (Main.vhd), termen : rx_uart(Behavioral) (rx_uart.vhd)]", 2, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main(Behavioral) (Main.vhd), operatie : alu_8bit(Behavioral) (alu_8bit.vhd)]", 5, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main(Behavioral) (Main.vhd), operatie : alu_8bit(Behavioral) (alu_8bit.vhd), scadere : scadere8biti(Behavioral) (scadere8biti.vhd)]", 7, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main(Behavioral) (Main.vhd), operatie : alu_8bit(Behavioral) (alu_8bit.vhd), inmultire : mult_booth(Behavioral) (mult_booth.vhd)]", 9, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main(Behavioral) (Main.vhd), operatie : alu_8bit(Behavioral) (alu_8bit.vhd), inmultire : mult_booth(Behavioral) (mult_booth.vhd), fdn_B : fdn(Behavioral) (fdn.vhd)]", 10, false, false, false, false, false, true); // B (F, cl) - Double Click
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main(Behavioral) (Main.vhd), operatie : alu_8bit(Behavioral) (alu_8bit.vhd), inmultire : mult_booth(Behavioral) (mult_booth.vhd)]", 9); // B (F, cl)
+// Elapsed time: 195 seconds
+selectCodeEditor("mult_booth.vhd", 546, 143); // cl (w, cl)
+// Elapsed time: 13 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+// Elapsed time: 246 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main(Behavioral) (Main.vhd), operatie : alu_8bit(Behavioral) (alu_8bit.vhd)]", 5, true, false, false, false, true, false); // B (F, cl) - Popup Trigger - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main(Behavioral) (Main.vhd), operatie : alu_8bit(Behavioral) (alu_8bit.vhd)]", 5, true, false, false, false, true, false); // B (F, cl) - Popup Trigger - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true, false, false, false, true, false); // B (F, cl) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ae (an, cl)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ae (an, cl)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ah (an, cl)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cl): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (E, c)
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "Division"); // Y (Q, F)
+// Elapsed time: 10 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+// Tcl Command: 'file mkdir C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/new'
+dismissDialog("Create Source File"); // F (c)
+// Tcl Message: file mkdir C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/new 
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 27 seconds
+dismissDialog("Add Sources"); // c (cl)
+// Tcl Message: close [ open C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/new/Division.vhd w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/new/Division.vhd 
+// I (cl): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "Yes"); // JButton (A, H)
+dismissDialog("Define Module"); // I (cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Division(Behavioral) (Division.vhd)]", 10, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Division(Behavioral) (Division.vhd)]", 10, false, false, false, false, false, true); // B (F, cl) - Double Click
+selectCodeEditor("Division.vhd", 885, 252); // cl (w, cl)
+typeControlKey((HResource) null, "Division.vhd", 'v'); // cl (w, cl)
+// Elapsed time: 13 seconds
+selectCodeEditor("Division.vhd", 256, 19); // cl (w, cl)
+selectCodeEditor("Division.vhd", 2, 52); // cl (w, cl)
+selectCodeEditor("Division.vhd", 20, 134); // cl (w, cl)
+selectCodeEditor("Division.vhd", 260, 154); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Division.vhd", 114, 197); // cl (w, cl)
+selectCodeEditor("Division.vhd", 119, 217); // cl (w, cl)
+selectCodeEditor("Division.vhd", 118, 239); // cl (w, cl)
+selectCodeEditor("Division.vhd", 115, 284); // cl (w, cl)
+selectCodeEditor("Division.vhd", 121, 268); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Division.vhd", 42, 127); // cl (w, cl)
+selectCodeEditor("Division.vhd", 34, 144); // cl (w, cl)
+selectCodeEditor("Division.vhd", 40, 179); // cl (w, cl)
+selectCodeEditor("Division.vhd", 41, 218); // cl (w, cl)
+selectCodeEditor("Division.vhd", 37, 241); // cl (w, cl)
+selectCodeEditor("Division.vhd", 38, 267); // cl (w, cl)
+selectCodeEditor("Division.vhd", 39, 303); // cl (w, cl)
+selectCodeEditor("Division.vhd", 35, 148); // cl (w, cl)
+selectCodeEditor("Division.vhd", 33, 174); // cl (w, cl)
+selectCodeEditor("Division.vhd", 39, 215); // cl (w, cl)
+selectCodeEditor("Division.vhd", 40, 244); // cl (w, cl)
+selectCodeEditor("Division.vhd", 39, 285); // cl (w, cl)
+selectCodeEditor("Division.vhd", 37, 308); // cl (w, cl)
+selectCodeEditor("Division.vhd", 38, 282); // cl (w, cl)
+selectCodeEditor("Division.vhd", 34, 133); // cl (w, cl)
+selectCodeEditor("Division.vhd", 38, 157); // cl (w, cl)
+selectCodeEditor("Division.vhd", 36, 182); // cl (w, cl)
+selectCodeEditor("Division.vhd", 425, 260); // cl (w, cl)
+selectCodeEditor("Division.vhd", 423, 260); // cl (w, cl)
+selectCodeEditor("Division.vhd", 423, 275); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Division.vhd", 403, 198); // cl (w, cl)
+selectCodeEditor("Division.vhd", 527, 176); // cl (w, cl)
+selectCodeEditor("Division.vhd", 113, 156); // cl (w, cl)
+selectCodeEditor("Division.vhd", 109, 179); // cl (w, cl)
+selectCodeEditor("Division.vhd", 113, 210); // cl (w, cl)
+selectCodeEditor("Division.vhd", 124, 198); // cl (w, cl)
+selectCodeEditor("Division.vhd", 122, 213); // cl (w, cl)
+selectCodeEditor("Division.vhd", 106, 242); // cl (w, cl)
+selectCodeEditor("Division.vhd", 109, 271); // cl (w, cl)
+selectCodeEditor("Division.vhd", 112, 283); // cl (w, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Main.vhd", 0); // k (j, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main(Behavioral) (Main.vhd), operatie : alu_8bit(Behavioral) (alu_8bit.vhd)]", 5, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main(Behavioral) (Main.vhd), operatie : alu_8bit(Behavioral) (alu_8bit.vhd)]", 5, true, false, false, false, true, false); // B (F, cl) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ae (an, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ae (an, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_SET_AS_TOP, "Set as Top"); // ah (an, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_SET_AS_TOP
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// by (cl):  Set as Top : addNotify
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: set_property top alu_8bit [current_fileset] 
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Set as Top"); // by (cl)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 255 seconds
+selectCodeEditor("Main.vhd", 412, 303); // cl (w, cl)
+selectCodeEditor("Main.vhd", 377, 95); // cl (w, cl)
+// Elapsed time: 32 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Division.vhd", 1); // k (j, cl)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Division.vhd", 1, true, false); // k (j, cl) - Popup Trigger
+selectMenuItem((HResource) null, "New Vertical Group"); // JMenuItem (JidePopupMenu)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "alu_8bit.vhd", 0); // k (j, cl)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "alu_8bit.vhd", 0, false, true); // k (j, cl) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (aH, cl)
+selectCodeEditor("alu_8bit.vhd", 312, 353); // cl (w, cl)
+selectCodeEditor("Division.vhd", 168, 229); // cl (w, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,936 MB. GUI used memory: 64 MB. Current time: 1/10/20, 11:25:05 AM EET
+// Elapsed time: 666 seconds
+selectCodeEditor("Division.vhd", 368, 489); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 167, 566); // cl (w, cl)
+// Elapsed time: 12 seconds
+selectCodeEditor("Division.vhd", 37, 141); // cl (w, cl)
+typeControlKey((HResource) null, "Division.vhd", 'c'); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 71, 618); // cl (w, cl)
+typeControlKey((HResource) null, "alu_8bit.vhd", 'v'); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 13 seconds
+selectCodeEditor("alu_8bit.vhd", 506, 476); // cl (w, cl)
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Division.vhd", 426, 257); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 64 seconds
+selectCodeEditor("alu_8bit.vhd", 517, 487); // cl (w, cl)
+// Elapsed time: 29 seconds
+selectCodeEditor("alu_8bit.vhd", 526, 362); // cl (w, cl)
+// Elapsed time: 138 seconds
+selectCodeEditor("alu_8bit.vhd", 361, 430); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 617, 392); // cl (w, cl)
+// Elapsed time: 100 seconds
+selectCodeEditor("alu_8bit.vhd", 243, 412); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 247 seconds
+selectCodeEditor("alu_8bit.vhd", 404, 408); // cl (w, cl)
+// Elapsed time: 28 seconds
+selectCodeEditor("alu_8bit.vhd", 374, 584); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 16 seconds
+selectCodeEditor("alu_8bit.vhd", 415, 527); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 404, 367); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 512, 385); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 407, 387); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("alu_8bit.vhd", 426, 369); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 401, 375); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("alu_8bit.vhd", 427, 372); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 432, 371); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 422, 389); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 422, 389, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "alu_8bit.vhd", 'c'); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 432, 369); // cl (w, cl)
+typeControlKey((HResource) null, "alu_8bit.vhd", 'v'); // cl (w, cl)
+typeControlKey((HResource) null, "alu_8bit.vhd", 'v'); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("alu_8bit.vhd", 505, 390); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 461, 362); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 461, 362, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "alu_8bit.vhd", 'c'); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 439, 366); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 406, 371); // cl (w, cl)
+typeControlKey((HResource) null, "alu_8bit.vhd", 'c'); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 434, 408); // cl (w, cl)
+typeControlKey((HResource) null, "alu_8bit.vhd", 'v'); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 416, 429); // cl (w, cl)
+typeControlKey((HResource) null, "alu_8bit.vhd", 'v'); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 426, 393); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 426, 393, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "alu_8bit.vhd", 'c'); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 467, 410); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 467, 410, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "alu_8bit.vhd", 'v'); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 462, 433); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 462, 433, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "alu_8bit.vhd", 'v'); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("alu_8bit.vhd", 486, 427); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 105, 347); // cl (w, cl)
+// Elapsed time: 16 seconds
+selectCodeEditor("alu_8bit.vhd", 340, 352); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 67 seconds
+selectCodeEditor("alu_8bit.vhd", 344, 414); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 344, 414, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("alu_8bit.vhd", 358, 408); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 358, 408); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 527, 321); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 445, 413); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 455, 414); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 443, 421); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 444, 416); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 448, 412); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("alu_8bit.vhd", 100, 257); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 27 seconds
+selectCodeEditor("alu_8bit.vhd", 135, 261); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 135, 261, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "alu_8bit.vhd", 'c'); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 363, 453); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 363, 453, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "alu_8bit.vhd", 'v'); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 137, 288); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 137, 288, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "alu_8bit.vhd", 'c'); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 515, 455); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 515, 455, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "alu_8bit.vhd", 'v'); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("alu_8bit.vhd", 429, 377); // cl (w, cl)
+// Elapsed time: 29 seconds
+selectCodeEditor("alu_8bit.vhd", 110, 95); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 110, 95, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "alu_8bit.vhd", 'c'); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 665, 371); // cl (w, cl)
+typeControlKey((HResource) null, "alu_8bit.vhd", 'v'); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 12 seconds
+selectCodeEditor("alu_8bit.vhd", 484, 473); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 49 seconds
+selectCodeEditor("alu_8bit.vhd", 516, 598); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 316 seconds
+selectCodeEditor("alu_8bit.vhd", 130, 541); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 119, 541); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 109, 540); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 32 seconds
+selectCodeEditor("Division.vhd", 176, 387); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 96, 310); // cl (w, cl)
+selectCodeEditor("Division.vhd", 447, 194); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 458, 170); // cl (w, cl)
+// PAResourceOtoP.PAViews_CODE: Code: close view
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectCodeEditor("alu_8bit.vhd", 451, 192); // cl (w, cl)
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // az
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main(Behavioral) (Main.vhd), operatie : alu_8bit(Behavioral) (alu_8bit.vhd)]", 5); // B (F, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main(Behavioral) (Main.vhd), operatie : alu_8bit(Behavioral) (alu_8bit.vhd)]", 5); // B (F, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main(Behavioral) (Main.vhd), operatie : alu_8bit(Behavioral) (alu_8bit.vhd)]", 5); // B (F, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main(Behavioral) (Main.vhd), operatie : alu_8bit(Behavioral) (alu_8bit.vhd)]", 5); // B (F, cl)
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main(Behavioral) (Main.vhd), display : SSD(Behavioral) (SSD.vhd)]", 4, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main(Behavioral) (Main.vhd), display : SSD(Behavioral) (SSD.vhd)]", 4, false, false, false, false, false, true); // B (F, cl) - Double Click
+selectCodeEditor("SSD.vhd", 105, 260); // cl (w, cl)
+selectCodeEditor("SSD.vhd", 465, 179); // cl (w, cl)
+typeControlKey((HResource) null, "SSD.vhd", 'c'); // cl (w, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main(Behavioral) (Main.vhd), operatie : alu_8bit(Behavioral) (alu_8bit.vhd)]", 5, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main(Behavioral) (Main.vhd), operatie : alu_8bit(Behavioral) (alu_8bit.vhd)]", 5, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+selectCodeEditor("alu_8bit.vhd", 118, 446); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 131, 446); // cl (w, cl)
+typeControlKey((HResource) null, "alu_8bit.vhd", 'v'); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 30 seconds
+selectCodeEditor("alu_8bit.vhd", 170, 233); // cl (w, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SSD.vhd", 1); // k (j, cl)
+selectCodeEditor("SSD.vhd", 124, 128); // cl (w, cl)
+selectCodeEditor("SSD.vhd", 97, 157); // cl (w, cl)
+typeControlKey((HResource) null, "SSD.vhd", 'c'); // cl (w, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "alu_8bit.vhd", 0); // k (j, cl)
+selectCodeEditor("alu_8bit.vhd", 447, 172); // cl (w, cl)
+typeControlKey((HResource) null, "alu_8bit.vhd", 'v'); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 99, 229); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("alu_8bit.vhd", 135, 192); // cl (w, cl)
+// Elapsed time: 14 seconds
+selectCodeEditor("alu_8bit.vhd", 247, 241); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 61, 231); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 325, 92); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 74, 117); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 83, 117); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 14 seconds
+selectCodeEditor("alu_8bit.vhd", 131, 117); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 125, 121); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 10 seconds
+selectCodeEditor("alu_8bit.vhd", 2, 265); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("alu_8bit.vhd", 175, 613); // cl (w, cl)
+// Elapsed time: 32 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main(Behavioral) (Main.vhd)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main(Behavioral) (Main.vhd)]", 1, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SSD.vhd", 1); // k (j, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,936 MB. GUI used memory: 65 MB. Current time: 1/10/20, 11:55:05 AM EET
+// Elapsed time: 479 seconds
+selectCodeEditor("SSD.vhd", 268, 452); // cl (w, cl)
+selectCodeEditor("SSD.vhd", 322, 431); // cl (w, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "alu_8bit.vhd", 0); // k (j, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true, false, false, false, true, false); // B (F, cl) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ae (an, cl)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ae (an, cl)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ah (an, cl)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cl): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (E, c)
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "TestALU"); // Y (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 17 seconds
+dismissDialog("Add Sources"); // c (cl)
+// Tcl Message: close [ open C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/new/TestALU.vhd w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/new/TestALU.vhd 
+// I (cl): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "Yes"); // JButton (A, H)
+dismissDialog("Define Module"); // I (cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Main.vhd", 2); // k (j, cl)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TestALU(Behavioral) (TestALU.vhd)]", 7, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TestALU(Behavioral) (TestALU.vhd)]", 7, false, false, false, false, false, true); // B (F, cl) - Double Click
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TestALU.vhd", 1, true, false); // k (j, cl) - Popup Trigger
+selectMenuItem((HResource) null, "New Vertical Group"); // JMenuItem (JidePopupMenu)
+// Elapsed time: 11 seconds
+selectCodeEditor("alu_8bit.vhd", 209, 602); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 199, 574); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 204, 605); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 36, 577); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("alu_8bit.vhd", 255, 114); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 405, 244); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("alu_8bit.vhd", 13, 473); // cl (w, cl)
+selectCodeEditor("alu_8bit.vhd", 15, 474); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 259 seconds
+selectCodeEditor("TestALU.vhd", 274, 414); // cl (w, cl)
+selectCodeEditor("TestALU.vhd", 17, 411); // cl (w, cl)
+selectCodeEditor("TestALU.vhd", 3, 49); // cl (w, cl)
+selectCodeEditor("TestALU.vhd", 170, 80); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 85 seconds
+selectCodeEditor("TestALU.vhd", 130, 102); // cl (w, cl)
+// Elapsed time: 19 seconds
+selectCodeEditor("TestALU.vhd", 261, 89); // cl (w, cl)
+selectCodeEditor("TestALU.vhd", 173, 93); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 102 seconds
+selectCodeEditor("alu_8bit.vhd", 70, 133); // cl (w, cl)
+typeControlKey((HResource) null, "alu_8bit.vhd", 'c'); // cl (w, cl)
+selectCodeEditor("TestALU.vhd", 57, 285); // cl (w, cl)
+typeControlKey((HResource) null, "TestALU.vhd", 'v'); // cl (w, cl)
+selectCodeEditor("TestALU.vhd", 38, 285); // cl (w, cl)
+typeControlKey(null, null, 'z');
+selectCodeEditor("alu_8bit.vhd", 30, 115); // cl (w, cl)
+typeControlKey((HResource) null, "alu_8bit.vhd", 'c'); // cl (w, cl)
+selectCodeEditor("TestALU.vhd", 64, 244); // cl (w, cl)
+selectCodeEditor("TestALU.vhd", 52, 308); // cl (w, cl)
+selectCodeEditor("TestALU.vhd", 56, 290); // cl (w, cl)
+typeControlKey((HResource) null, "TestALU.vhd", 'v'); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 10 seconds
+selectCodeEditor("TestALU.vhd", 350, 267); // cl (w, cl)
+selectCodeEditor("TestALU.vhd", 120, 403); // cl (w, cl)
+// Elapsed time: 15 seconds
+selectCodeEditor("alu_8bit.vhd", 36, 290); // cl (w, cl)
+typeControlKey((HResource) null, "alu_8bit.vhd", 'c'); // cl (w, cl)
+selectCodeEditor("TestALU.vhd", 44, 456); // cl (w, cl)
+typeControlKey((HResource) null, "TestALU.vhd", 'v'); // cl (w, cl)
+selectCodeEditor("TestALU.vhd", 33, 533); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Elapsed time: 41 seconds
+selectCodeEditor("TestALU.vhd", 87, 578); // cl (w, cl)
+selectCodeEditor("TestALU.vhd", 32, 568); // cl (w, cl)
+selectCodeEditor("TestALU.vhd", 40, 555); // cl (w, cl)
+selectCodeEditor("TestALU.vhd", 68, 589); // cl (w, cl)
+// Elapsed time: 25 seconds
+selectCodeEditor("TestALU.vhd", 10, 554); // cl (w, cl)
+// Elapsed time: 142 seconds
+selectCodeEditor("TestALU.vhd", 72, 555); // cl (w, cl)
+// Elapsed time: 23 seconds
+selectCodeEditor("TestALU.vhd", 527, 581); // cl (w, cl)
+selectCodeEditor("TestALU.vhd", 527, 581, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "TestALU.vhd", 'c'); // cl (w, cl)
+selectCodeEditor("TestALU.vhd", 598, 583); // cl (w, cl)
+typeControlKey((HResource) null, "TestALU.vhd", 'v'); // cl (w, cl)
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("TestALU.vhd", 62, 611); // cl (w, cl)
+selectCodeEditor("TestALU.vhd", 64, 602); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 32 seconds
+selectCodeEditor("TestALU.vhd", 187, 392); // cl (w, cl)
+selectCodeEditor("TestALU.vhd", 454, 159); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 34 seconds
+selectCodeEditor("TestALU.vhd", 404, 202); // cl (w, cl)
+selectCodeEditor("TestALU.vhd", 414, 195); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("TestALU.vhd", 84, 97); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 29 seconds
+selectCodeEditor("TestALU.vhd", 22, 627); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 19 seconds
+selectCodeEditor("TestALU.vhd", 332, 503); // cl (w, cl)
+// Elapsed time: 16 seconds
+selectCodeEditor("TestALU.vhd", 61, 514); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 23 seconds
+selectCodeEditor("TestALU.vhd", 86, 514); // cl (w, cl)
+selectCodeEditor("TestALU.vhd", 87, 515, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "TestALU.vhd", 'c'); // cl (w, cl)
+selectCodeEditor("TestALU.vhd", 394, 581); // cl (w, cl)
+selectCodeEditor("TestALU.vhd", 394, 581, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "TestALU.vhd", 'v'); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("TestALU.vhd", 314, 647); // cl (w, cl)
+selectCodeEditor("TestALU.vhd", 314, 647, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "TestALU.vhd", 'v'); // cl (w, cl)
+selectCodeEditor("TestALU.vhd", 38, 627); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 13 seconds
+selectCodeEditor("TestALU.vhd", 432, 549); // cl (w, cl)
+selectCodeEditor("TestALU.vhd", 184, 306); // cl (w, cl)
+// PAResourceOtoP.PAViews_CODE: Code: close view
+// Elapsed time: 49 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // az
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TestALU(Behavioral) (TestALU.vhd)]", 6, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TestALU(Behavioral) (TestALU.vhd)]", 6, true, false, false, false, true, false); // B (F, cl) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ae (an, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ae (an, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_SET_AS_TOP, "Set as Top"); // ah (an, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_SET_AS_TOP
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property top TestALU [current_fileset] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 139 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 10, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 10, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys3_test_env.xdc]", 11, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys3_test_env.xdc]", 11, false, false, false, false, false, true); // B (F, cl) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TestALU.vhd", 0); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys3_test_env.xdc", 1); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TestALU.vhd", 0); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys3_test_env.xdc", 1); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TestALU.vhd", 0); // k (j, cl)
+selectCodeEditor("TestALU.vhd", 125, 143); // cl (w, cl)
+selectCodeEditor("TestALU.vhd", 125, 143, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("TestALU.vhd", 333, 511); // cl (w, cl)
+selectCodeEditor("TestALU.vhd", 333, 511, false, false, false, false, true); // cl (w, cl) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys3_test_env.xdc", 1); // k (j, cl)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TestALU.vhd", 0); // k (j, cl)
+// Elapsed time: 12 seconds
+selectCodeEditor("TestALU.vhd", 26, 481); // cl (w, cl)
+selectCodeEditor("TestALU.vhd", 32, 485); // cl (w, cl)
+selectCodeEditor("TestALU.vhd", 622, 441); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 30 seconds
+selectCodeEditor("TestALU.vhd", 127, 476); // cl (w, cl)
+selectCodeEditor("TestALU.vhd", 67, 122); // cl (w, cl)
+typeControlKey((HResource) null, "TestALU.vhd", 'c'); // cl (w, cl)
+selectCodeEditor("TestALU.vhd", 327, 491); // cl (w, cl)
+typeControlKey((HResource) null, "TestALU.vhd", 'v'); // cl (w, cl)
+selectCodeEditor("TestALU.vhd", 7, 486); // cl (w, cl)
+selectCodeEditor("TestALU.vhd", 119, 491); // cl (w, cl)
+selectCodeEditor("TestALU.vhd", 115, 516); // cl (w, cl)
+selectCodeEditor("TestALU.vhd", 411, 139); // cl (w, cl)
+selectCodeEditor("TestALU.vhd", 64, 122); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("TestALU.vhd", 343, 434); // cl (w, cl)
+selectCodeEditor("TestALU.vhd", 339, 433); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 22 seconds
+selectCodeEditor("TestALU.vhd", 262, 431); // cl (w, cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cl): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// by (cl):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // A (cl)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cl): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cx' command handler elapsed time: 4 seconds
+dismissDialog("Launch Runs"); // f (cl)
+// TclEventType: RUN_LAUNCH
+// by (cl):  Generate Bitstream : addNotify
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Fri Jan 10 12:24:20 2020] Launched synth_1... Run output will be captured here: C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1/project_1.runs/synth_1/runme.log [Fri Jan 10 12:24:20 2020] Launched impl_1... Run output will be captured here: C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1/project_1.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // by (cl)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ah (cl): Synthesis Failed: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 1,936 MB. GUI used memory: 65 MB. Current time: 1/10/20, 12:25:05 PM EET
+// Elapsed time: 94 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Synthesis Failed"); // ah (cl)
+unMinimizeFrame(PAResourceOtoP.PAViews_MESSAGES, "Messages"); // az
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-549] port width mismatch for port 'Divis': port width = 4, actual width = 8 [C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/imports/new/alu_8bit.vhd:93]. ]", 36, false); // ah (O, cl)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\murea\OneDrive\Desktop\ProiectSSCBasys3\project_1\project_1.srcs\sources_1\imports\new\alu_8bit.vhd;-;;-;16;-;line;-;93;-;;-;16;-;"); // ah (O, cl)
+// Elapsed time: 15 seconds
+selectCodeEditor("alu_8bit.vhd", 477, 159); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 26 seconds
+selectCodeEditor("alu_8bit.vhd", 348, 47); // cl (w, cl)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TestALU.vhd", 0); // k (j, cl)
+selectCodeEditor("TestALU.vhd", 234, 179); // cl (w, cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cl): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// by (cl):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("No Implementation Results Available"); // A (cl)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cl): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (cl)
+// TclEventType: RUN_LAUNCH
+// by (cl):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri Jan 10 12:26:53 2020] Launched synth_1... Run output will be captured here: C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1/project_1.runs/synth_1/runme.log [Fri Jan 10 12:26:53 2020] Launched impl_1... Run output will be captured here: C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1/project_1.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // by (cl)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ah (cl): Synthesis Failed: addNotify
+// Elapsed time: 35 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah (cl)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-549] port width mismatch for port 'cat': port width = 7, actual width = 8 [C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1/project_1.srcs/sources_1/new/TestALU.vhd:37]. ]", 4, false); // ah (O, cl)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\murea\OneDrive\Desktop\ProiectSSCBasys3\project_1\project_1.srcs\sources_1\new\TestALU.vhd;-;;-;16;-;line;-;37;-;;-;16;-;"); // ah (O, cl)
+selectCodeEditor("TestALU.vhd", 312, 179); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 52 seconds
+selectCodeEditor("TestALU.vhd", 400, 161); // cl (w, cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cl): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// by (cl):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("No Implementation Results Available"); // A (cl)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cl): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (cl)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Fri Jan 10 12:28:41 2020] Launched synth_1... Run output will be captured here: C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1/project_1.runs/synth_1/runme.log [Fri Jan 10 12:28:41 2020] Launched impl_1... Run output will be captured here: C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1/project_1.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+selectCodeEditor("TestALU.vhd", 189, 240); // cl (w, cl)
+// Elapsed time: 13 seconds
+selectCodeEditor("TestALU.vhd", 532, 189); // cl (w, cl)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ah (cl): Bitstream Generation Completed: addNotify
+// Elapsed time: 110 seconds
+dismissDialog("Bitstream Generation Completed"); // ah (cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u (O, cl) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// by (cl):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+dismissDialog("Open Hardware Manager"); // by (cl)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cS, cl)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ah (an, cl)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// by (cl):  Auto Connect : addNotify
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2019.1   **** Build date : May 24 2019 at 15:13:31     ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 2016.152 ; gain = 0.000 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183AB44E4A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1/project_1.runs/impl_1/TestALU.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // by (cl)
+// Elapsed time: 18 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cS, cl)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cl): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// by (cl):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC (cl)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1/project_1.runs/impl_1/TestALU.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // by (cl)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183AB44E4A 
+// n (cl): Close Hardware Target: addNotify
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Elapsed time: 39 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (n)
+dismissDialog("Close Hardware Target"); // n (cl)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cS, cl)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cl): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// by (cl):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC (cl)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1/project_1.runs/impl_1/TestALU.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // by (cl)
+selectCodeEditor("TestALU.vhd", 288, 257); // cl (w, cl)
+// Elapsed time: 93 seconds
+selectCodeEditor("TestALU.vhd", 268, 227); // cl (w, cl)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys3_test_env.xdc", 1); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TestALU.vhd", 0); // k (j, cl)
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (aA, cl)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// A (cl): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// by (cl):  Close Hardware Manager : addNotify
+// TclEventType: HW_OBJECT_DELETE
+dismissDialog("Confirm Close"); // A (cl)
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SESSION_CLOSE
+// Tcl Message: close_hw 
+dismissDialog("Close Hardware Manager"); // by (cl)
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TestALU(Behavioral) (TestALU.vhd), operatie : alu_8bit(Behavioral) (alu_8bit.vhd)]", 2, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TestALU(Behavioral) (TestALU.vhd), operatie : alu_8bit(Behavioral) (alu_8bit.vhd)]", 2, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+// Elapsed time: 165 seconds
+selectCodeEditor("alu_8bit.vhd", 417, 172); // cl (w, cl)
+// Elapsed time: 28 seconds
+selectCodeEditor("alu_8bit.vhd", 323, 218); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cl): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// by (cl):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (cl)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cl): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (cl)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Fri Jan 10 12:37:38 2020] Launched synth_1... Run output will be captured here: C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1/project_1.runs/synth_1/runme.log [Fri Jan 10 12:37:38 2020] Launched impl_1... Run output will be captured here: C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1/project_1.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ah (cl): Bitstream Generation Completed: addNotify
+// Elapsed time: 115 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Completed"); // ah (cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u (O, cl) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// by (cl):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+dismissDialog("Open Hardware Manager"); // by (cl)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cS, cl)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ah (an, cl)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// by (cl):  Auto Connect : addNotify
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2019.1   **** Build date : May 24 2019 at 15:13:31     ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183AB44E4A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1/project_1.runs/impl_1/TestALU.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // by (cl)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cS, cl)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cl): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// by (cl):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC (cl)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1/project_1.runs/impl_1/TestALU.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // by (cl)
+// Elapsed time: 45 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (aA, cl)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// A (cl): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// by (cl):  Close Hardware Manager : addNotify
+// TclEventType: HW_OBJECT_DELETE
+dismissDialog("Confirm Close"); // A (cl)
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// Tcl Message: close_hw 
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SESSION_CLOSE
+dismissDialog("Close Hardware Manager"); // by (cl)
+selectCodeEditor("TestALU.vhd", 56, 229); // cl (w, cl)
+// Elapsed time: 81 seconds
+selectCodeEditor("TestALU.vhd", 289, 217); // cl (w, cl)
+// Elapsed time: 301 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TestALU(Behavioral) (TestALU.vhd), operatie : alu_8bit(Behavioral) (alu_8bit.vhd), deplasare : deplasariStangaDreapta8biti(Behavioral) (deplasariStangaDreapta8biti.vhd)]", 5, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TestALU(Behavioral) (TestALU.vhd), operatie : alu_8bit(Behavioral) (alu_8bit.vhd), deplasare : deplasariStangaDreapta8biti(Behavioral) (deplasariStangaDreapta8biti.vhd)]", 5, false, false, false, false, false, true); // B (F, cl) - Double Click
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TestALU(Behavioral) (TestALU.vhd), operatie : alu_8bit(Behavioral) (alu_8bit.vhd)]", 2, true, false, false, false, true, false); // B (F, cl) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ae (an, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ae (an, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ae (an, Popup.HeavyWeightWindow)
+// Elapsed time: 82 seconds
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ae (an, Popup.HeavyWeightWindow)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ae (an, Popup.HeavyWeightWindow)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ae (an, Popup.HeavyWeightWindow)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ae (an, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ae (an, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ae (an, Popup.HeavyWeightWindow)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ae (an, Popup.HeavyWeightWindow)
+selectCodeEditor("TestALU.vhd", 265, 133); // cl (w, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TestALU(Behavioral) (TestALU.vhd), operatie : alu_8bit(Behavioral) (alu_8bit.vhd)]", 2, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TestALU(Behavioral) (TestALU.vhd), operatie : alu_8bit(Behavioral) (alu_8bit.vhd)]", 2, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "alu_8bit.vhd", 1, true, false); // k (j, cl) - Popup Trigger
+selectMenuItem((HResource) null, "New Vertical Group"); // JMenuItem (JidePopupMenu)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TestALU.vhd", 0); // k (j, cl)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TestALU.vhd", 0, false, true); // k (j, cl) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (aH, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TestALU.vhd", 0); // k (j, cl)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TestALU.vhd", 0, false, true); // k (j, cl) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (aH, cl)
+selectCodeEditor("alu_8bit.vhd", 361, 88); // cl (w, cl)
+// Elapsed time: 31 seconds
+selectCodeEditor("alu_8bit.vhd", 144, 112); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 13 seconds
+selectCodeEditor("alu_8bit.vhd", 1, 375); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("alu_8bit.vhd", 256, 361); // cl (w, cl)
+// Elapsed time: 21 seconds
+selectCodeEditor("alu_8bit.vhd", 188, 671); // cl (w, cl)
+// Elapsed time: 10 seconds
+selectCodeEditor("alu_8bit.vhd", 295, 275); // cl (w, cl)
+selectCodeEditor("TestALU.vhd", 283, 110); // cl (w, cl)
+selectCodeEditor("TestALU.vhd", 258, 555); // cl (w, cl)
+selectCodeEditor("TestALU.vhd", 251, 562); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("TestALU.vhd", 122, 83); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 14 seconds
+selectCodeEditor("TestALU.vhd", 44, 286); // cl (w, cl)
+// PAResourceOtoP.PAViews_CODE: Code: close view
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectCodeEditor("TestALU.vhd", 442, 97); // cl (w, cl)
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // az
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cl): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// by (cl):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (cl)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cl): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (cl)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri Jan 10 12:50:51 2020] Launched synth_1... Run output will be captured here: C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1/project_1.runs/synth_1/runme.log [Fri Jan 10 12:50:51 2020] Launched impl_1... Run output will be captured here: C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1/project_1.runs/impl_1/runme.log 
+// by (cl):  Generate Bitstream : addNotify
+dismissDialog("Generate Bitstream"); // by (cl)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 39 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_MESSAGES, "Messages"); // az
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ah (cl): Bitstream Generation Completed: addNotify
+// Elapsed time: 81 seconds
+dismissDialog("Bitstream Generation Completed"); // ah (cl)
+// Elapsed time: 20 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f (cl): Launch Runs: addNotify
+selectButton("OptionPane.button", "OK"); // JButton (A, G)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (f)
+dismissDialog("Launch Runs"); // f (cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u (O, cl) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// by (cl):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+dismissDialog("Open Hardware Manager"); // by (cl)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cS, cl)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ah (an, cl)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// by (cl):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2019.1   **** Build date : May 24 2019 at 15:13:31     ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183AB44E4A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1/project_1.runs/impl_1/TestALU.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // by (cl)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cS, cl)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cl): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// by (cl):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC (cl)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/murea/OneDrive/Desktop/ProiectSSCBasys3/project_1/project_1.runs/impl_1/TestALU.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // by (cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,936 MB. GUI used memory: 71 MB. Current time: 1/10/20, 12:55:06 PM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,936 MB. GUI used memory: 71 MB. Current time: 1/10/20, 1:25:06 PM EET
